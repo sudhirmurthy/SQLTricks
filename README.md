@@ -1,11 +1,15 @@
 # SQLTricks
 Pivot and UnPivot Data
 
-/************************************************
-Author	 : Sudhir Murthy (c) www.sudhirmurthy.blogspot.com
-Desc	   : Data Pivoting Techniques in SQL Server.
-Date    : June-14-2009.
-*************************************************/
+
+-[PIVOT] 
+	- The PIVOT relational operator converts data from row level to column level. PIVOT rotates a table-valued expression by turning the unique values from one column in the expression into multiple columns in the output. Using PIVOT operator, we can perform aggregate operation where we need them.
+	
+-[UNPIVOT]
+	- UNPIVOT relational operator is reverse process of PIVOT relational operator. UNPIVOT relational operator convert data from column level to row level.
+	
+- [Usecases]
+Read more about this from this research paper here ![Read More](IND1P2.PDF)
 
 - [Declare the table variable = @TblOrderDetails]
 
