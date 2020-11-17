@@ -1,11 +1,11 @@
 # SQLTricks
 Pivot and UnPivot Data
 
-## /************************************************
-## Author	 : Sudhir Murthy (c) www.sudhirmurthy.blogspot.com
-## Desc	   : Data Pivoting Techniques in SQL Server.
-## Date    : June-14-2009.
-## *************************************************/
+/************************************************
+Author	 : Sudhir Murthy (c) www.sudhirmurthy.blogspot.com
+Desc	   : Data Pivoting Techniques in SQL Server.
+Date    : June-14-2009.
+*************************************************/
 
 - [Declare the table variable = @TblOrderDetails]
 
@@ -23,5 +23,5 @@ DECLARE @TblOrderDetails TABLE(
   - 3. You can use newid() or newsequentialid() for creating a new unique identifiers.
    For performance reasons, newsequentialid() is preferred.
 
-
+Please refer to the Pivot&UnpivotExample.sql file for more details
 	
