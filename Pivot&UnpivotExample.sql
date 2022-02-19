@@ -1,6 +1,6 @@
 /************************************************
 Author	: Sudhir Murthy (c) www.sudhirmurthy.com
-Desc	: Data Pivoting Techniques in SQL Server.
+Desc	: Data Pivoting Techniques in SQL.
 Date    : June-14-2009.
 *************************************************/
 
