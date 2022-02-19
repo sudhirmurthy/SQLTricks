@@ -13,10 +13,9 @@ Read more about this from this research paper here ![Read More - Optimization an
 
 
 - [NOTE:]
-  -1. I've used an integer datatype to build the default index on the PK.
-  -2. Uniqueidentifier type for true uniqueness(useful for replication scenarios)
-  -3. You can use newid() or newsequentialid() for creating a new unique identifiers.
-   For performance reasons, newsequentialid() is preferred.
+  - 1. I've used an integer datatype to build the default index on the PK.
+  - 2. Uniqueidentifier type for true uniqueness(useful for replication scenarios)
+  - 3. You can use newid() or newsequentialid() for creating a new unique identifiers.For performance reasons, newsequentialid() is preferred.
 
-Please refer to the ![Pivot&UnpivotExample.sql](Pivot&UnpivotExample.sql) file for more details
+- Please refer to the ![Pivot&UnpivotExample.sql](Pivot&UnpivotExample.sql) file for more details
 	
