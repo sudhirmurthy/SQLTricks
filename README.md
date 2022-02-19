@@ -11,15 +11,6 @@ Pivot and UnPivot Data
 - [Usecases]
 Read more about this from this research paper here ![Read More - Optimization and Execution Strategies in an RDBMS](IND1P2.PDF)
 
-- [Declare the table variable = @TblOrderDetails]
-
-DECLARE @TblOrderDetails TABLE(
-	Id				INT NOT NULL PRIMARY KEY, --1
-	UniqueOrderKey	UNIQUEIDENTIFIER DEFAULT(NEWSEQUENTIALID()), --2,3
-	Employee		NVARCHAR(50) NOT NULL,
-	ProductId		INT NOT NULL,
-	Sales			DECIMAL(8,3)		
-)
 
 - [NOTE:]
   -1. I've used an integer datatype to build the default index on the PK.
